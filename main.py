@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import os
 import tkinter as tk
 from tkinter import scrolledtext, simpledialog
@@ -103,6 +103,8 @@ class ChatApp:
             self.chat_history.config(state='disabled')
             self.append_message("HATA", f"API Hatası: {e}", color='red')
             
+
+
 # --- Uygulamayı Başlatma ---
 if __name__ == "__main__":
     if chat_model:
@@ -112,9 +114,3 @@ if __name__ == "__main__":
     else:
         print("Gemini model başlatılamadı. Lütfen API anahtarınızı kontrol edin.")
 
-        
-=======
-import streamlit as st
-
-st.write("Hello")
->>>>>>> 92cdd3cccb8bf69ffd08e8f25001ff122ce30638
